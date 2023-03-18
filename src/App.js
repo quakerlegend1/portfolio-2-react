@@ -9,7 +9,7 @@ function App() {
         <p>
           qq
         </p>
-        <p>Добрый день снова</p>
+        <p>123</p>
         <a
           className="App-link"
           href="https://reactjs.org"
