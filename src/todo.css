@@ -1,0 +1,32 @@
+.todo-div {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform:translateX(-50%);
+    
+}
+
+
+.todo-div-form {
+    display: flex;
+}
+
+.todo-text {
+    background-color: rgb(209, 216, 219);
+    width: 500px;
+    height: 40px;
+    font-size: 1.5em;
+}
+
+.todo-add {
+    
+}
+
+.todo-add span {
+    
+}
+
+.todo-ul {
+    margin-top: 20px;
+    background-color: red;
+}
