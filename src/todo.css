@@ -1,11 +1,13 @@
 .todo-div {
     position: absolute;
     left: 50%;
-    top:50%;
+    top:25%;
     transform:translateX(-50%);
-    
 }
 
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
 
 .todo-div-form {
     display: flex;
@@ -15,11 +17,13 @@
     background-color: rgb(209, 216, 219);
     width: 500px;
     height: 40px;
-    font-size: 1.5em;
+    font-size: 1.1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 .todo-add {
-    
+    margin-left: 10px;
+    font-family: cursive;
 }
 
 .todo-add span {
@@ -28,5 +32,25 @@
 
 .todo-ul {
     margin-top: 20px;
-    background-color: red;
+    overflow: auto;
+    height: 500px;
+    list-style-type: none;
+    list-style-image: url("../public/marker.png");
+    font-weight: 600;
+    margin-left: -30px;
 }
+
+.todo-ul li {
+    background-color: rgba(132, 216, 99, 0.479);
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 550px;
+}
+
+.todo-btn {
+    margin-left: 10px;
+    align-self: center;
+    margin-bottom: 5px;
+}
+
