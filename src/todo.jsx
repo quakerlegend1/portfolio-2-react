@@ -8,7 +8,7 @@ function Todolist(props) {
     return (
         <>
         <div className="todo-div">
-            <h1 style={{textAlign: "center"}}>2Do or not 2Do?</h1>
+            <h1 style={{textAlign: "center"}}>2Do or not 2Do?🤔</h1>
             <div className="todo-div-form">
                 <input className="todo-text form-control" value={value} type="text" placeholder="Что бы вы хотели сделать?" onChange={(e)=>{setValue(e.target.value)}}/>
                 <div className="todo-add" onClick={setValue}><span className="btn btn-primary">Добавить</span></div>
