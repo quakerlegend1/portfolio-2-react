@@ -55,3 +55,10 @@ h1 {
     margin-bottom: 5px;
 }
 
+.todo-empty h3 {
+    font-size: 1.5em;
+    color: rgb(236, 10, 10);
+    margin-left: -50px;
+    margin-top: 50px;
+    text-align: center;
+}
